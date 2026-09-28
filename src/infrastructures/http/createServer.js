@@ -3,11 +3,11 @@ const hotels = require('../../interfaces/hotels');
 
 const createServer = async (container) => {
   const server = Hapi.server({
-    host: process.env.HOST || 'localhost',
-    port: process.env.PORT || 3000,
+    host: '0.0.0.0',
+    port: 3000,
     routes: {
       cors: {
-        origin: ['*'], // Izinkan akses dari frontend Flutter nantinya
+        origin: ['*'],
       },
     },
   });
