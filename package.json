@@ -1,0 +1,21 @@
+{
+  "name": "syafar-api",
+  "version": "1.0.0",
+  "description": "Mini Project Hotel Rate Aggregator",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.10",
+    "dotenv": "^18.0.4",
+    "instances-container": "^2.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
